@@ -1,0 +1,33 @@
+
+
+@media screen and (max-width: 1200px) {
+  .md-disappear {
+    display: none;
+  }
+  .mb-appear {
+    display: block;
+  }
+  .bubble {
+    margin: 50px auto !important;
+    box-sizing: border-box;
+  }
+  .bubble p {
+    text-align: center;
+  }
+  .img-guide {
+    margin: 0 auto !important;
+  }
+  .img-stars {
+    margin: 0 auto;
+  }
+  .step-2, .step-3, .step-4, .step-5 {
+    padding-top: 100px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bubble {
+    width: 100%;
+    padding: 10px;
+  }
+}

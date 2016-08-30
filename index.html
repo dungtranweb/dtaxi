@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dtaxi - Cùng Đi Taxi Thôi</title>
+
+	<!-- The Meta -->
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatable" content="IE=edge">
+    <meta name="description" content="Dtaxi - Cùng Đi Taxi Thôi" />
+    <meta name="keywords" content="Dtaxi, gọi taxi, di chuyển, vận chuyển, đầm sen, nexx" />
+    <meta name="author" content="NEX" />
+
+    <link rel="shortcut icon" href="images/favicon.png" />
+
+	<!-- The Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/mobile.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/hover.css" />
+	<link rel="stylesheet" href="css/font-awesome.css" />
+
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if lte IE 7]>
+		<script src="js/IE8.js" type="text/javascript"></script><![endif]-->
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/><![endif]-->
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+
+	<!-- The Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="js/modernizr.js"></script>
+
+</head>
+
+
+<body data-spy="scroll" data-target="nav li">
+
+
+	<!-- NAVBAR -->
+	<nav id="bt-menu" class="bt-menu" role="navigation">
+		<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+		<ul>
+			<li>
+				<a href="#intro" class="bt-icon fa-desktop"></a>
+			</li>
+			<li>
+				<a href="#overview" class="bt-icon">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="46" viewBox="0 0 50 46">
+				  <path id="icon-overview" d="M41.000,-0.001 C36.375,-0.001 32.559,3.506 32.059,7.998 L17.941,7.998 C17.441,3.506 13.624,-0.001 9.000,-0.001 C4.038,-0.001 -0.000,4.037 -0.000,8.999 C-0.000,13.961 4.038,17.999 9.000,17.999 C10.268,17.999 11.473,17.732 12.568,17.259 L19.701,29.740 C17.462,31.379 16.000,34.019 16.000,36.999 C16.000,41.962 20.038,45.999 25.000,45.999 C29.963,45.999 34.000,41.962 34.000,36.999 C34.000,34.019 32.538,31.380 30.300,29.741 L37.433,17.259 C38.527,17.733 39.732,17.999 41.000,17.999 C45.963,17.999 50.000,13.961 50.000,8.999 C50.000,4.037 45.963,-0.001 41.000,-0.001 ZM28.568,28.740 C27.474,28.266 26.268,27.999 25.000,27.999 C23.732,27.999 22.527,28.266 21.433,28.740 L14.300,16.257 C16.284,14.804 17.656,12.566 17.942,9.999 L32.060,9.999 C32.346,12.566 33.718,14.805 35.703,16.258 L28.568,28.740 Z" style="fill: #fff;
+				  fill-rule: evenodd;"/></svg>
+				</a>
+			</li>
+			<li>
+				<a href="#features" class="bt-icon fa-cogs"></a>
+			</li>
+			<li>
+				<a href="#process" class="bt-icon">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="50" viewBox="0 0 50 50">
+					<path id="icon-process" d="M47.032,36.821 L40.825,37.594 L38.373,31.788 C39.411,29.747 40.000,27.440 40.000,24.993 C40.000,16.964 33.696,10.407 25.769,10.008 L29.564,4.987 L25.794,-0.001 C39.234,0.419 50.000,11.448 50.000,24.993 C50.000,29.271 48.925,33.299 47.032,36.821 ZM24.200,10.010 C16.288,10.426 10.000,16.975 10.000,24.993 C10.000,27.453 10.596,29.772 11.645,31.822 L5.394,31.043 L2.960,36.805 C1.072,33.287 -0.001,29.265 -0.001,24.993 C-0.001,11.441 10.777,0.407 24.226,-0.001 L27.997,4.987 L24.200,10.010 ZM12.432,33.179 C15.109,37.283 19.737,39.997 25.000,39.997 C30.278,39.997 34.916,37.268 37.590,33.146 L40.041,38.951 L46.245,38.179 C41.833,45.275 33.969,49.999 25.000,49.999 C16.024,49.999 8.154,45.267 3.745,38.161 L6.178,32.400 L12.432,33.179 Z" style="fill: #fff;
+				  fill-rule: evenodd;"/></svg>
+				</a>
+			</li>
+			<li>
+				<a href="#news" class="bt-icon fa-newspaper-o"></a>
+			</li>
+			<li>
+				<a href="#become" class="bt-icon">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="51" height="42" viewBox="0 0 51 42">
+				  <path id="icon-become" d="M50.195,8.945 L48.101,7.320 L45.900,5.585 L46.651,4.556 L51.000,7.916 L50.195,8.945 ZM31.835,32.949 L26.037,35.983 L27.486,29.590 L45.363,6.236 L49.712,9.595 L31.835,32.949 ZM45.095,8.674 L28.721,30.077 L29.741,30.836 L46.115,9.433 L45.095,8.674 ZM26.681,29.481 L25.232,35.875 C25.124,36.200 25.285,36.525 25.500,36.688 C25.661,36.796 25.822,36.850 25.983,36.850 C26.144,36.850 26.252,36.796 26.359,36.742 L32.103,33.707 C32.211,33.654 32.318,33.599 32.371,33.491 L39.726,23.954 C41.927,25.797 43.108,28.723 43.108,32.624 L43.108,41.998 L-0.000,41.998 L-0.000,32.624 C-0.000,25.580 3.973,21.625 10.844,21.625 L32.425,21.625 C32.479,21.625 32.533,21.625 32.586,21.625 L26.842,29.156 C26.735,29.265 26.681,29.372 26.681,29.481 ZM21.635,19.403 C16.320,19.403 12.025,15.068 12.025,9.704 C12.025,4.339 16.320,0.005 21.635,0.005 C26.949,0.005 31.244,4.339 31.244,9.704 C31.244,15.068 26.949,19.403 21.635,19.403 Z" style="fill: #fff;
+				  fill-rule: evenodd;"/></svg>
+				</a>
+			</li>
+			</ul>
+	</nav>
+	<!-- END NAVBAR -->
+
+
+	<!-- INTRO(SLIDER AREA) -->
+	<div id="intro">
+	<section class="ss-style-doublediagonal">
+			<div class="logo"><a href="#"><img src="images/logo.png" alt="logo"></a></div>
+			<div class="description animated bounceIn"><h2>Cùng Đi Taxi Thôi</h2></div>
+
+			<div id="sequence">
+				<img class="sequence-prev" src="images/slider/bt-prev.png" alt="Previous Frame" />
+				<img class="sequence-next" src="images/slider/bt-next.png" alt="Next Frame" />
+
+				<ul class="sequence-canvas">
+
+					<li class="animate-in animated fadeIn">
+						<div class="subtitle h3">
+						<div class="sub-set">
+							Dtaxi là ứng dụng kết nối giữa tài xế và khách hàng có nhu cầu đặt taxi phục vụ cho nhu cầu đi lại hàng ngày.
+						</div>
+						<br />
+							<ul>
+							<li>Thiết kế được chăm chút trong hàng trăm giờ để mang lại một trải nghiệm tinh tế và thuận tiện nhất cho người dùng.</li>
+							<li>Công nghệ định vị và phân tích dữ liệu theo thời gian thực giúp việc giao nhận trở nên nhanh chóng, tin cậy và chi phí thấp hơn bao giờ hết.</li>
+							<li>Khả năng mở rộng và kết nối không giới hạn cho phép bất kỳ ai có tham gia sử dụng.</li>
+							</ul>
+						</div>
+						<img class="model" src="images/slider/model1.png" alt="Model 1" />
+					</li>
+				</ul>
+
+			</div><!-- end sequence -->
+
+			<div class="row animated fadeIn">
+				<div class="col-md-6"><a href="#" class="appstore-btn buzz-out" target="_blank"></a></div>
+				<div class="col-md-6"><a href="#" class="android-btn buzz-out" target="_blank"></a></div>
+			</div>
+
+	</section>
+	</div><!-- end intro -->
+	<!-- END INTRO (SLIDER AREA) -->
+
+	<!-- PRESENTATION AREA-->
+	<div id="presentation">
+		<div class="presentation container">
+			 <h3>"Consectetur adipiscing elit fusce interdum lacus, eu porta sem vestibulum vel. Mauris molestie dui eu odio commodo, sed vulputate urna eleifend."</h3>
+		</div><!-- end presentation container -->
+	</div><!-- end presentation -->
+	<!-- END PRESENTATION AREA -->
+
+
+	<!-- OVERVIEW AREA -->
+	<div id="overview">
+		<div class="container">
+				<div class="area-title">
+					<h2>Mô hình hoạt động</h2>
+				</div>
+				<p>Bằng cách kết nối những cá nhân có nhu cầu gửi hàng với những cá nhân có khả năng vận chuyển trong cộng đồng, chúng tôi tạo ra một mạng lưới rộng khắp để đáp ứng mọi nhu cầu về vận chuyển hàng hóa trên thị trường. </p>
+
+				<div class="fast"><h3>Chuyên nghiệp</h3></div>
+				<div class="arrow-fast"><img src="images/arrow-fast.png" alt="fast" /></div>
+
+				<div class="intuitive"><h3>Tin cậy</h3></div>
+				<div class="arrow-intuitive"><img src="images/arrow-intuitive.png" alt="intuitive"/></div>
+
+				<div class="simple"><h3>Đơn giản</h3></div>
+				<div class="arrow-simple"><img src="images/arrow-simple.png" alt="simple"/></div>
+
+				<div class="secure"><h3>An toàn</h3></div>
+				<div class="arrow-secure"><img src="images/arrow-secure.png" alt="secure"/></div>
+
+				<div class="awesome"><h3>Tốc độ</h3></div>
+				<div class="arrow-awesome"><img src="images/arrow-awesome.png" alt="awesome"/></div>
+
+				<div class="free"><h3>Thu nhập</h3></div>
+				<div class="arrow-free"><img src="images/arrow-free.png" alt="free"/></div>
+
+				<div class="device">
+					<div class="video-bg"><iframe style="border:0;" width="450" height="260" src="https://www.youtube.com/embed/hFDcoX7s6rE?autoplay=1" allowfullscreen></iframe></div>
+				</div>
+
+		</div><!-- end container -->
+	</div><!-- end overview -->
+	<!-- END OVERVIEW AREA -->
+
+
+
+	<!-- AWARD AREA -->
+	<div id="award">
+		<div class="award container">
+			<h3><span class="award-icon"><img src="images/driver-icon.png" alt="shipper" />&nbsp&nbsp&nbsp</span>Hơn <span class="font-bold">5.000 Tài xế</span> đang hoạt động</h3>
+		</div><!-- end award container -->
+	</div><!-- award -->
+	<!-- END AWARD AREA -->
+
+
+	<!-- FEATURES AREA -->
+	<div id="features">
+		<div class="container">
+				<div class="area-title">
+					<h2 class="font-bold">Tính năng vượt trội</h2>
+				</div>
+				<p>
+				Vivamus rutrum tortor feugiat risus lacinia lobortis. Quisque commodo est at lacinia volutpat. Ut gravida metus ut neque bibendum, a finibus nibh bibendum. Suspendisse elit diam, aliquam nec egestas ut, luctus vel diam.
+				</p>
+
+			<div class="row">
+				<div class="main">
+					<ul class="cbp-ig-grid">
+						<li>
+							<a href="#">
+								<span class="cbp-ig-icon"><img src="images/features/fea-1.png" alt="Đơn hàng quanh đây" /></span>
+								<h3 class="cbp-ig-title">Việc làm quanh đây</h3>
+								<span class="cbp-ig-category">Nhân viên nhận được thông tin về các địa điểm làm việc quanh vị trị hiện tại.</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="cbp-ig-icon"><img src="images/features/fea-2.png" alt="Theo dõi đơn hàng" /></span>
+								<h3 class="cbp-ig-title">Theo dõi dịch vụ</h3>
+								<span class="cbp-ig-category">Theo dõi thông tin chung về các đơn hàng cũng như yều chi tiết của từng đơn hàng.</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="cbp-ig-icon"><img src="images/features/fea-3.png" alt="Nhắn tin" /></span>
+								<h3 class="cbp-ig-title">Liên lạc</h3>
+								<span class="cbp-ig-category">Kết nối liên lạc giữa người dùng và hệ thống, khách hàng và Nhân viên</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="cbp-ig-icon"><img src="images/features/fea-4.png" alt="Phân tích dữ liệu theo thời gian thực" /></span>
+								<h3 class="cbp-ig-title">Xếp hạng</h3>
+								<span class="cbp-ig-category">Bảng xếp hạng các Nhân viên có uy tín.</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="cbp-ig-icon"><img src="images/features/fea-5.png" alt="Hệ thống đánh giá" /></span>
+								<h3 class="cbp-ig-title">Hệ thống đánh giá</h3>
+								<span class="cbp-ig-category">Hệ thống đánh giá chất lượng dịch vụ được cung cấp bởi từng Nhân viên.</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="cbp-ig-icon"><img src="images/features/fea-6.png" alt="Chia sẻ" /></span>
+								<h3 class="cbp-ig-title">Chia sẻ</h3>
+								<span class="cbp-ig-category">Dễ dàng chia sẽ qua mạng xã hội, tin nhắn để mời bạn bè tham gia và nhận được quyền lợi.</span>
+							</a>
+						</li>
+						<li class="text-box">
+							<a href="#">
+								<span class="cbp-ig-icon"><img src="images/features/fea-7.png" alt="Đa nền tảng" /></span>
+								<h3 class="cbp-ig-title">Đa nền tảng</h3>
+								<span class="cbp-ig-category">Ứng dụng được viết cho điện thoại sử dụng nền tảng iOS lẫn Android.</span>
+
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="cbp-ig-icon"><img src="images/features/fea-8.png" alt="Hệ thống Cloud" /></span>
+								<h3 class="cbp-ig-title">Điện toán đám mây</h3>
+								<span class="cbp-ig-category">Luôn đảm bảo hệ thống hoạt động trơn tru và bảo mật.</span>
+							</a>
+						</li>
+					</ul>
+				</div><!-- end main -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end features -->
+	<!-- END FEATURES AREA -->
+
+
+	<!-- RATING AREA -->
+	<div id="rating">
+		<div class="rating container">
+			<div class="rating-img"></div>
+			<h3>Hơn <span class="font-bold">12.000 Khách hàng</span> đã đăng ký</h3>
+		</div><!-- end container -->
+	</div><!-- end rating container -->
+	<!-- END RATING AREA -->
+
+
+	<!-- PROCESS AREA -->
+	<div id="process">
+		<div class="process container">
+			<div class="row">
+				<div class="col-lg-6 step">
+					<h1>ĐẶT XE</h1>
+					<div class="description">
+						Praesent gravida erat nec ante mollis con
+						Curabitur malesuada augue efficitur auctor
+						Phasellus faucibus quam vitae tincidun
+						Class aptent taciti sociosqu ad litora torqu
+						ent per conubia nostra, per inceptos hime
+						naeos. Donec id varius metus
+					</div>
+					<div class="img-bg">
+						<img src="images/process/1.png" alt="" class="img-responsive"/>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 step">
+					<h1>TÀI XẾ TỚI ĐÓN</h1>
+					<div class="description">
+						Praesent gravida erat nec ante mollis con
+						Curabitur malesuada augue efficitur auctor
+						Phasellus faucibus quam vitae tincidun
+						Class aptent taciti sociosqu ad litora torqu
+						ent per conubia nostra, per inceptos hime
+						naeos. Donec id varius metus
+					</div>
+					<div class="img-bg">
+						<img src="images/process/2.png" alt="" class="img-responsive"/>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 step">
+					<h1>BẮT ĐẦU</h1>
+					<div class="description">
+						Praesent gravida erat nec ante mollis con
+						Curabitur malesuada augue efficitur auctor
+						Phasellus faucibus quam vitae tincidun
+						Class aptent taciti sociosqu ad litora torqu
+						ent per conubia nostra, per inceptos hime
+						naeos. Donec id varius metus
+					</div>
+					<div class="img-bg">
+						<img src="images/process/3.png" alt="" class="img-responsive"/>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 step">
+					<h1>KẾT THÚC</h1>
+					<div class="description">
+						Praesent gravida erat nec ante mollis con
+						Curabitur malesuada augue efficitur auctor
+						Phasellus faucibus quam vitae tincidun
+						Class aptent taciti sociosqu ad litora torqu
+						ent per conubia nostra, per inceptos hime
+						naeos. Donec id varius metus
+					</div>
+					<div class="img-bg">
+						<img src="images/process/4.png" alt="" class="img-responsive"/>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div><!-- end screens -->
+	<!-- END PROCESS AREA -->
+
+
+	<!-- PATCHES AREA -->
+	<div id="patches">
+		<div class="patches container">
+			<div class="patches-img"></div>
+			<h3>Hệ thống đánh giá Tài xế giúp Khách hàng lựa chọn Tài xế phù hợp</h3>
+		</div><!-- end patches container -->
+	</div><!-- end patches -->
+	<!-- END PATCHES AREA -->
+
+	<div id="news">
+		<div class="news container">
+			<div class="area-title">
+				<h2 class="font-bold">Tin Tức & Khuyến Mãi</h2>
+			</div>
+			<p>
+			Vivamus rutrum tortor feugiat risus lacinia lobortis. Quisque commodo est at lacinia volutpat. Ut gravida metus ut neque bibendum, a finibus nibh bibendum. Suspendisse elit diam, aliquam nec egestas ut, luctus vel diam.
+			</p>
+
+			<div class="flex-wrapper">
+				<div class="item">
+					<a href="#">
+						<div class="img">
+							<img src="images/news/1.png" alt="shit" />
+						</div>
+
+						<div class="info">
+							<span>TIN TỨC</span>
+							<div class="info-title">
+								Aliquam erat volutpat
+							</div>
+							<div class="content">
+								Donec maximus gravida nibh, nec aliquam detal
+								mauris tempus sit amet. Nam sollicitudin tellus
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="item">
+					<a href="#">
+						<div class="img">
+							<img src="images/news/2.png" alt="shit" />
+						</div>
+
+						<div class="info">
+							<span>KHUYẾN MÃI</span>
+							<div class="info-title">
+								Aliquam erat volutpat
+							</div>
+							<div class="content">
+								Donec maximus gravida nibh, nec aliquam detal
+								mauris tempus sit amet. Nam sollicitudin tellus
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="item">
+					<a href="#">
+						<div class="img">
+							<img src="images/news/3.png" alt="shit" />
+						</div>
+
+						<div class="info">
+							<span>TIN TỨC</span>
+							<div class="info-title">
+								Aliquam erat volutpat
+							</div>
+							<div class="content">
+								Donec maximus gravida nibh, nec aliquam detal
+								mauris tempus sit amet. Nam sollicitudin tellus
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="item">
+					<a href="#">
+						<div class="img">
+							<img src="images/news/4.png" alt="shit" />
+						</div>
+
+						<div class="info">
+							<span>TIN TỨC</span>
+							<div class="info-title">
+								Aliquam erat volutpat
+							</div>
+							<div class="content">
+								Donec maximus gravida nibh, nec aliquam detal
+								mauris tempus sit amet. Nam sollicitudin tellus
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="item">
+					<a href="#">
+						<div class="img">
+							<img src="images/news/5.png" alt="shit" />
+						</div>
+
+						<div class="info">
+							<span>KHUYẾN MÃI</span>
+							<div class="info-title">
+								Aliquam erat volutpat
+							</div>
+							<div class="content">
+								Donec maximus gravida nibh, nec aliquam detal
+								mauris tempus sit amet. Nam sollicitudin tellus
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="item">
+					<a href="#">
+						<div class="img">
+							<img src="images/news/6.png" alt="shit" />
+						</div>
+
+						<div class="info">
+							<span>KHUYẾN MÃI</span>
+							<div class="info-title">
+								Aliquam erat volutpat
+							</div>
+							<div class="content">
+								Donec maximus gravida nibh, nec aliquam detal
+								mauris tempus sit amet. Nam sollicitudin tellus
+							</div>
+						</div>
+					</a>
+				</div>
+
+			</div>
+
+		</div><!-- end news container -->
+	</div><!-- end news -->
+	<!-- END NEWS AREA -->
+
+
+	<div id="unknown">
+		<div class="unknown container">
+			<div class="unknown-img"></div>
+			<h3>Hệ thống đánh giá Tài xế giúp Khách hàng lựa chọn Tài xế phù hợp</h3>
+		</div><!-- end unknown container -->
+	</div><!-- end unknown -->
+	<!-- END UNKNOWN AREA -->
+
+
+	<!-- BECOME AREA -->
+	<div id="become">
+		<div class="container">
+			<div class="col-sm-offset-6 col-sm-6 become">
+
+				<div class="become-title">
+					<h2>Trở thành Tài xế</h2>
+				</div>
+				<div class="become-info">
+					<div class="benefit info-box">
+						<h4>Tham gia ngay để được:</h4>
+						<ul>
+						<li>Nhận được đơn hàng thường xuyên và phù hợp</li>
+						<li>Tăng thêm nguồn thu nhập nhanh chóng và hấp dẫn</li>
+						<li>Tích lũy điểm thưởng khi làm vượt mức quy định</li>
+						<li>Bảo vệ quyền lợi khi bị lừa đảo</li>
+						</ul>
+					</div>
+					<div class="register info-box">
+						<h4>Đăng Ký để được tư vấn thêm</h4>
+						<form class="register-form" action="" method="post">
+							<input type="text" name="name" value="" placeholder="Họ và tên" required>
+							<input type="text" name="phone" value="" placeholder="Số điện thoại" required>
+							<input type="email" name="email" value="" placeholder="Email" required>
+							<input type="text" name="address" value="" placeholder="Địa chỉ" required>
+							<select class="work-location" name="work-location" required>
+								<option value="" disabled selected>Nơi bạn muốn làm việc</option>
+								<option value="hcm">Thành phố Hồ Chí Minh</option>
+								<option value="dn">Đà Nẵng</option>
+								<option value="hn">Hà Nội</option>
+							</select>
+							<input type="checkbox" name="privacy" value="agree" required> <label>Tôi đã đọc và đồng ý với các điều khoản</label>
+							<input type="submit" name="submit" value="Đăng ký" class="buzz-out">
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</div><!-- end container -->
+	</div><!-- end updates -->
+	<!-- END BECOME AREA -->
+
+
+	<!--SOCIAL AREA -->
+	<div id="social">
+		<div class="social container">
+			<h3>Tham gia vào cộng đồng Dtaxi ngay</h3>
+				<a href="#" target="_blank"><span class="social-icons fa-facebook-square pop"></span></a>
+				<a href="#" target="_blank"><span class="social-icons fa-twitter-square pop"></span></a>
+				<a href="#" target="_blank"><span class="social-icons fa-google-plus-square pop"></span></a>
+				<a href="#" target="_blank"><span class="social-icons fa-youtube-square pop"></span></a>
+		</div><!-- end social container -->
+	</div><!-- end social -->
+	<!-- END SOCIAL AREA -->
+
+
+	<!-- CONTACT AREA -->
+	<div id="contact">
+			<div class="contact-title">
+				<div class="logo-contact animated bounceIn"><a href="#"><img src="images/logo.png" alt="logo"></a></div>
+				<div class="animated bounceIn"><h2 class="font-bold">Cùng Đi Taxi Thôi</h2></div>
+			</div>
+
+			<div id="map">
+				<div id="location"></div>
+			</div>
+	</div><!-- end contact -->
+	<!-- END CONTACT AREA -->
+
+
+	<!-- CONTACT DATA AREA -->
+	<div class="contact-data">
+		<h2>Công ty TNHH cung cấp giải pháp công nghệ số NextStep</h2>
+		<div class="info-wrap">
+			<div><span class="contact-data-icons fa-phone"></span>&nbsp;&nbsp;&nbsp;<span>0901 316 831</span></div>
+			<div><span class="contact-data-icons fa-globe"></span>&nbsp;&nbsp;&nbsp;<span>258 Phan Văn Hân, Bình Thạnh, Tp.HCM</span></div>
+			<div><span class="contact-data-icons fa-envelope"></span>&nbsp;&nbsp;&nbsp;<span>info@nexx.vn</span></div>
+		</div>
+	</div><!-- end contact-data -->
+	<!-- END CONTACT DATA -->
+
+
+	<!--  FOOTER AREA -->
+	<div id="footer">
+		<div class="container">
+			<div class="footer">
+				<div class="col-sm-6">
+					<a href="#"><h5>Điều khoản sử dụng </h5></a>
+					<h5>|</h5>
+					<a href="#"><h5>FAQ</h5></a>
+				</div>
+				<div class="col-sm-6 copyright">
+					<h5>Copyright 2016 &copy; NextStep. All rights reserved.</h5>
+				</div>
+			</div>
+		</div><!-- end container -->
+	</div><!-- end footer -->
+	<!-- END FOOTER -->
+
+
+
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/borderMenu.js"></script>
+<script type="text/javascript" src="js/jquery.sequence.js"></script>
+<script type="text/javascript" src="js/hovers.js"></script>
+<script type="text/javascript" src="js/snap.svg-min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/toucheffects.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+<script type="text/javascript">
+
+
+/*global $:false */
+/*global google:false*/
+/*jshint unused: vars */
+/*jshint unused: false */
+
+
+/* -- SCROLLSPY --*/
+$('body').scrollspy({ target: 'nav li' });
+
+
+/* SLIDER */
+$(function(){
+	var options = {
+		nextButton: true,
+		prevButton: true,
+		pagination: false,
+		animateStartingFrameIn: false,
+		autoPlay: true,
+		autoPlayDelay: 3000,
+		preloader: false,
+		pauseOnHover: true,
+	};
+
+	var mySequence = $("#sequence").sequence(options).data("sequence");
+
+});
+
+/* ELEMENTS ANIMATION ON SCROLL */
+$(window).scroll(function () {
+	"use strict";
+	var topOfWindow = $(window).scrollTop();
+
+	function _checkOffset(className) {
+		return function () {
+			var $this = $(this),
+				imagePos = $this.offset().top;
+
+			$this.toggleClass(className, (imagePos < topOfWindow + 700));
+		};
+	}
+
+	$('.presentation h3').each(_checkOffset('animated fadeInDown'));
+	$('.device').each(_checkOffset('animated flipInX'));
+	$('.arrow-fast').each(_checkOffset('animated bounceInLeft'));
+	$('.fast h3').each(_checkOffset('animated bounceInLeft'));
+	$('.arrow-intuitive').each(_checkOffset('animated bounceInLeft'));
+	$('.intuitive h3').each(_checkOffset('animated bounceInLeft'));
+	$('.arrow-simple').each(_checkOffset('animated bounceInLeft'));
+	$('.simple h3').each(_checkOffset('animated bounceInLeft'));
+	$('.arrow-secure').each(_checkOffset('animated bounceInRight'));
+	$('.secure h3').each(_checkOffset('animated bounceInRight'));
+	$('.arrow-awesome').each(_checkOffset('animated bounceInRight'));
+	$('.awesome h3').each(_checkOffset('animated bounceInRight'));
+	$('.arrow-free').each(_checkOffset('animated bounceInRight'));
+	$('.free h3').each(_checkOffset('animated bounceInRight'));
+	$('.award h3').each(_checkOffset('animated fadeInDown'));
+	$('.cbp-ig-grid li').each(_checkOffset('animated fadeIn'));
+	$('.rating').each(_checkOffset('animated fadeInDown'));
+	$('.grid figure').each(_checkOffset('animated fadeIn'));
+	$('.patches h3').each(_checkOffset('animated fadeInDown'));
+	$('.patches .patches-img').each(_checkOffset('animated fadeInDown'));
+	$('.price h3').each(_checkOffset('animated fadeInDown'));
+	$('.cd-timeline-icon').each(_checkOffset('animated bounce-in'));
+	$('.cd-timeline-content').each(_checkOffset('animated bounce-in'));
+	$('.plans').each(_checkOffset('animated fadeIn'));
+	$('.cbp-qtrotator').each(_checkOffset('animated fadeInDown'));
+	$('.view').each(_checkOffset('animated fadeIn'));
+	$('.front').each(_checkOffset('animated fadeIn'));
+	$('.social').each(_checkOffset('animated fadeInDown'));
+	$('.form-inline').each(_checkOffset('animated bounceIn'));
+	$('#map').each(_checkOffset('animated fadeIn'));
+	$('.img-guide').each(_checkOffset('animated fadeInUp'));
+	$('.left .bubble').each(_checkOffset('animated fadeInLeft'));
+	$('.right .bubble').each(_checkOffset('animated fadeInRight'));
+	$('.timeline').each(_checkOffset('animated fadeIn'));
+	$('.left .img-step-bg').each(_checkOffset('animated fadeInRight'));
+	$('.right .img-step-bg').each(_checkOffset('animated fadeInLeft'));
+	$('.img-stars').each(_checkOffset('animated tada'));
+	$('.shipper-box').each(_checkOffset('animated fadeInUp'));
+	$('.become').each(_checkOffset('animated fadeInRight'));
+	$('.item').each(_checkOffset('animated fadeInUp'));
+});
+
+
+/* GOOGLE MAP */
+window.onload = function () {
+	"use strict";
+	var styles = [
+	{
+		featureType: 'water', // set the water color
+		elementType: 'geometry.fill', // apply the color only to the fill
+		stylers: [
+			{ color: '#FFFFFF' }
+		]
+	},{
+		featureType: 'landscape.manmade', // set the natural landscape
+		elementType: 'all',
+		stylers: [
+			{ hue: '#262262' }
+		]
+	},{
+		featureType: 'poi', // set the point of interest
+		elementType: 'all',
+		stylers: [
+			{ hue: '#524CA2' }
+		]
+	},{
+		featureType: 'road', // set the road
+		elementType: 'geometry',
+		stylers: [
+			{ hue: '#262262' }
+		]
+	},{
+		featureType: 'road.local', // set the local road
+		elementType: 'all',
+		stylers: [
+			{ hue: '#524CA2' }
+		]
+	}
+];
+
+var myLatlng = new google.maps.LatLng(10.794519, 106.702320);
+
+var options = {
+	mapTypeControlOptions: {
+		mapTypeIds: ['Dtaxi']
+	},
+	center: myLatlng,
+	zoom: 15,
+	disableDefaultUI: false,
+	scrollwheel: false,
+	mapTypeId: 'Dtaxi'
+
+};
+
+var div = document.getElementById('location');
+var map = new google.maps.Map(div, options);
+var styledMapType = new google.maps.StyledMapType(styles, { name: 'Dtaxi' });
+map.mapTypes.set('Dtaxi', styledMapType);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Dtaxi'
+  });
+
+};
+
+
+
+</script>
+
+</body>
+</html>
