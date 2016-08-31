@@ -64,8 +64,16 @@
 		font-size: 3em;
 	}
 
+	#become h2 {
+		text-align: center;
+	}
+
 	h3 {
 		font-size: 1.6em;
+	}
+
+	.fixwidth .featherlight-content {
+		width: 90%;
 	}
 
 	.bubble h3 {
@@ -93,10 +101,14 @@
 		text-align: left !important;
 	}
 
-	input {
+	input, select {
 		width: 100% !important;
-		margin: 0 auto;
 		font-size: 1.3em;
+	}
+
+	input[type="checkbox"] {
+		text-align: left;
+		width: 18px !important;
 	}
 
 	.mb-disappear {
@@ -250,7 +262,7 @@
 		padding: 35% 0;
 	}
 
-	#features{background-color: #F7941E; background-image: none !important;}
+	#features{background-color: #524CA2; background-image: none !important;}
 
 	.grid a {
 		float: none;
@@ -350,8 +362,8 @@
 	}
 
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-		height: 30px;
-		width: 260px;
+		height: 45px;
+		width: 350px;
 	}
 
 	.contact-title h2 {
@@ -377,6 +389,12 @@
 		width: 100%;
 		margin-left: 0;
 	}
+
+	select {
+		margin: 0 auto;
+		height: 45px;
+		margin-top: 25px;
+	}
 }
 
 
@@ -393,8 +411,16 @@
 		font-size: 3em;
 	}
 
+	#become h2 {
+		text-align: center;
+	}
+
 	h3 {
 		font-size: 1.6em;
+	}
+
+	.fixwidth .featherlight-content {
+		width: 90%;
 	}
 
 	#become {
@@ -566,7 +592,7 @@
 		padding: 23% 0;
 	}
 
-#features{background-color: #F7941E; background-image: none !important;}
+#features{background-color: #524CA2; background-image: none !important;}
 
 	.text-box {
 		width: 99% !important;
@@ -672,8 +698,8 @@
 	}
 
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-		height: 30px;
-		width: 260px;
+		height: 45px;
+		width: 350px;
 	}
 
 	.contact-data h3 {
@@ -715,6 +741,12 @@
 		width: 100%;
 		margin-left: 0;
 	}
+
+	select {
+		margin: 0 auto;
+		height: 45px;
+		margin-top: 25px;
+	}
 }
 
 
@@ -731,8 +763,17 @@
 		font-size: 3em;
 	}
 
+	#become h2 {
+		text-align: center;
+	}
+
+
 	h3 {
 		font-size: 1.6em;
+	}
+
+	.fixwidth .featherlight-content {
+		width: 90%;
 	}
 
 	#become {
@@ -903,7 +944,7 @@
 	.award h3 {
 		padding: 20% 0;
 	}
-#features{background-color: #F7941E; background-image: none !important;}
+#features{background-color: #524CA2; background-image: none !important;}
 
 	.cbp-ig-grid {
 		margin: 10% auto 8%;
@@ -1023,8 +1064,8 @@
 	}
 
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-		height: 30px;
-		width: 260px;
+		height: 45px;
+		width: 350px;
 	}
 
 	.contact-title h2 {
@@ -1049,6 +1090,12 @@
 		width: 100%;
 		margin-left: 0;
 	}
+
+	select {
+		margin: 0 auto;
+		height: 45px;
+		margin-top: 25px;
+	}
 }
 
 
@@ -1067,6 +1114,10 @@
 
 	h3 {
 		font-size: 1.8em;
+	}
+
+	.fixwidth .featherlight-content {
+		width: 90%;
 	}
 
 	#become {
@@ -1241,7 +1292,7 @@
 	.award h3 {
 		padding: 18% 0;
 	}
-#features{background-color: #F7941E; background-image: none !important;}
+#features{background-color: #524CA2; background-image: none !important;}
 
 	.text-box {
 		width: 99% !important;
@@ -1402,8 +1453,8 @@
 	}
 
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-		height: 30px;
-		width: 260px;
+		height: 45px;
+		width: 350px;
 	}
 
 	.contact-title h2 {
@@ -1428,6 +1479,17 @@
 		width: 100%;
 		margin-left: 0;
 	}
+
+	#become h2 {
+		text-align: center;
+	}
+
+	select {
+		margin: 0 auto;
+		height: 45px;
+		margin-top: 25px;
+	}
+
 }
 
 
@@ -1444,8 +1506,16 @@
 		font-size: 3.6em;
 	}
 
+	#become h2 {
+		text-align: center;
+	}
+
 	h3 {
 		font-size: 1.8em;
+	}
+
+	.fixwidth .featherlight-content {
+		width: 90%;
 	}
 
 	#become {
@@ -1616,7 +1686,7 @@
 	.award h3 {
 		padding: 15% 0;
 	}
-#features{background-color: #F7941E; background-image: none !important;}
+	#features{background-color: #524CA2; background-image: none !important;}
 
 	.cbp-ig-grid {
 		margin: 5% auto;
@@ -1769,8 +1839,14 @@
 	}
 
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-		height: 30px;
-		width: 260px;
+		height: 45px;
+		width: 350px;
+	}
+
+	select {
+		margin: 0 auto;
+		height: 45px;
+		margin-top: 25px;
 	}
 
 	.contact-title h2 {
@@ -1960,7 +2036,7 @@
 	.award h3 {
 		padding: 13.5% 0;
 	}
-#features{background-color: #F7941E; background-image: none !important;}
+#features{background-color: #524CA2; background-image: none !important;}
 
 	.cbp-ig-grid {
 		margin: 2% auto 6%;
@@ -2122,8 +2198,8 @@
 	}
 
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-		height: 30px;
-		width: 260px;
+		height: 45px;
+		width: 350px;
 	}
 
 	.contact-title h2 {
@@ -2319,7 +2395,7 @@
 	.award h3 {
 		padding: 11.5% 0;
 	}
-#features{background-color: #F7941E; background-image: none !important;}
+#features{background-color: #524CA2; background-image: none !important;}
 
 	.cbp-ig-grid {
 		margin: 2% auto 6%;
@@ -2478,8 +2554,8 @@
 	}
 
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-		height: 30px;
-		width: 260px;
+		height: 45px;
+		width: 350px;
 	}
 
 	.contact-data h2 {
@@ -2674,7 +2750,7 @@
 	.award h3 {
 		padding: 10% 0;
 	}
-#features{background-color: #F7941E; background-image: none !important;}
+#features{background-color: #524CA2; background-image: none !important;}
 
 	.cbp-ig-grid {
 		margin: 3% auto 3%;
@@ -2750,7 +2826,7 @@
 	}
 
 	.patches-img {
-		padding: 1% 0;
+		padding: 2% 0;
 	}
 
 	#cd-timeline {
@@ -2893,8 +2969,8 @@
 	}
 
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-		height: 30px;
-		width: 260px;
+		height: 45px;
+		width: 350px;
 	}
 
 	.contact-data h3 {

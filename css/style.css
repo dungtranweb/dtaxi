@@ -1122,42 +1122,103 @@ path#icon-become:focus  {
 	border-bottom: 8px solid #262262;
 }
 
-.process {
-	background: white url(../images/process/iphone.png) top right no-repeat fixed;
+.content .news-list {
+	float: left;
+  margin-top: 200px;
+  width: 390px;
 }
 
-.process .step {
+.content .news-list .news-container {
+	position: relative;
+}
+
+.content .news-list .block {
+	margin-bottom: 200px;
+  width: 390px;
+}
+
+.news-list .news-container .block {
 	margin: 200px 0;
 	position: relative;
 }
 
-.step h1 {
+.news-list .news-container .block h1 {
 	text-align: center;
 	padding: 50px 0;
 }
 
-.step .description {
+.news-list .news-container .block .description {
 	font-size: 32px;
 	line-height: 44px;
 	font-weight: 300;
 	color: #262262;
 }
 
-.step .img-bg {
+.news-list .news-container .block .img-bg {
 	position: absolute;
 	top: 0;
 	width: 100%;
 	z-index: -1;
 }
 
-.step img {
+.news-list .news-container .block img {
 	margin: 0 auto;
 }
 
+#paralax {
+	height: 924px;
+  left: 473px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  z-index: 4;
+}
 
+#process .content #paralax #phone {
+	background-image: url(../images/process/phone.png);
+	height: 568px;
+	left: 0;
+	position: absolute;
+	top: 87px;
+	width: 279px;
+}
 
+#process .content #paralax #phone .content {
+	background: #000;
+  height: 431px;
+  left: 18px;
+  overflow: hidden;
+  position: absolute;
+  top: 69px;
+  width: 243px
+}
 
+#process .content {
+	margin: 0 auto;
+  max-width: 1024px;
+  position: relative;
+}
 
+#process .content #phone-paralax {
+	position: absolute;
+  width: 243px;
+}
+
+.content #phone-paralax .block.first {
+	display: block;
+}
+
+.content #phone-paralax .block {
+	display: none;
+  height: 431px;
+  width: 243px;
+}
+
+.content #phone-paralax .block img {
+	width: 100%;
+}
 
 /* ------- 10. PATCHES AREA ------- */
 #patches {
@@ -1263,6 +1324,33 @@ path#icon-become:focus  {
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: normal;
+}
+
+.news-content {
+	display: none;
+}
+
+.news-content p, .news-content h2 {
+	color: #262262;
+	padding: 20px 0;
+}
+
+.news-content span {
+	color: #FCB040;
+	letter-spacing: 3px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.news-content img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.fixwidth .featherlight-content {
+	width: 700px;
+	padding: 25px;
 }
 
 /* ------- 10. UNKNOWN AREA ------- */
