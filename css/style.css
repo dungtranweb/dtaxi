@@ -1117,7 +1117,7 @@ path#icon-become:focus  {
 	height: auto;
 	position: relative;
 	overflow: hidden;
-	padding: 90px 0;
+	padding: 90px 0 200px 0;
 	border-top: 8px solid #262262;
 	border-bottom: 8px solid #262262;
 }
@@ -1133,24 +1133,30 @@ path#icon-become:focus  {
 }
 
 .content .news-list .block {
-	margin-bottom: 200px;
   width: 390px;
+	height: 570px;
+	margin: 200px auto;
+	position: relative;
+	display: table;
 }
 
-.news-list .news-container .block {
-	margin: 200px 0;
-	position: relative;
+.content .news-list .block .step {
+  display: table-cell;
+	vertical-align: middle;
 }
 
 .news-list .news-container .block h1 {
 	text-align: center;
+	font-size: 60px;
+	line-height: 80px;
 	padding: 50px 0;
 }
 
 .news-list .news-container .block .description {
-	font-size: 32px;
+	font-size: 28px;
 	line-height: 44px;
-	font-weight: 300;
+	text-align: center;
+	font-weight: normal;
 	color: #262262;
 }
 
@@ -1159,6 +1165,7 @@ path#icon-become:focus  {
 	top: 0;
 	width: 100%;
 	z-index: -1;
+	opacity: 0.6;
 }
 
 .news-list .news-container .block img {
@@ -1167,7 +1174,7 @@ path#icon-become:focus  {
 
 #paralax {
 	height: 924px;
-  left: 473px;
+  left: 600px;
   position: absolute;
   right: 0;
   top: 0;
@@ -1176,12 +1183,52 @@ path#icon-become:focus  {
   z-index: 4;
 }
 
+#process .content #paralax #notebook {
+	background-image: url(../images/process/notebook.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 923px;
+  left: 153px;
+  position: absolute;
+  top: 0;
+  width: 1658px !important;
+}
+
+#process .content #paralax #notebook .content {
+	background: #000;
+  height: 700px;
+  left: 240px;
+  overflow: hidden;
+  position: absolute;
+  top: 62px;
+  width: 1120px;
+}
+
+#process .content #notebook-paralax {
+	position: absolute;
+	width: 964px;
+}
+
+.content #notebook-paralax .block.first {
+	display: block;
+}
+
+.content #notebook-paralax .block {
+	display: none;
+	height: 701px;
+  width: 964px;
+}
+
+.content #notebook-paralax .block img {
+	height: 701px;
+}
+
 #process .content #paralax #phone {
 	background-image: url(../images/process/phone.png);
 	height: 568px;
 	left: 0;
 	position: absolute;
-	top: 87px;
+	top: 175px;
 	width: 279px;
 }
 
