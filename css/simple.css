@@ -1,0 +1,131 @@
+/* line 15, ../sass/simple.sass */
+body {
+  max-width: 480px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #666666;
+}
+
+/* line 22, ../sass/simple.sass */
+h1, h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 10px 10px;
+}
+
+/* line 27, ../sass/simple.sass */
+h3, h4, p, input, select, span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+/* line 31, ../sass/simple.sass */
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+/* line 35, ../sass/simple.sass */
+h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+/* line 39, ../sass/simple.sass */
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 10px 0;
+}
+
+/* line 44, ../sass/simple.sass */
+h4 {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 10px 0;
+}
+
+/* line 49, ../sass/simple.sass */
+p, span {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* line 54, ../sass/simple.sass */
+#header {
+  width: 100%;
+  height: 250px;
+  background: url("../images/policy-header.jpg") no-repeat center center;
+}
+/* line 58, ../sass/simple.sass */
+#header div {
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-color: rgba(38, 34, 98, 0.9);
+}
+/* line 63, ../sass/simple.sass */
+#header div h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 70px;
+  color: white;
+  text-transform: uppercase;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+/* line 76, ../sass/simple.sass */
+#content {
+  padding-top: 30px;
+}
+/* line 78, ../sass/simple.sass */
+#content li {
+  padding-bottom: 10px;
+  list-style-type: square;
+}
+
+/* line 83, ../sass/simple.sass */
+#footer {
+  background: url("../images/footer-bg.jpg") no-repeat center center;
+  margin-top: 90px;
+  text-align: center;
+  color: white;
+}
+
+/* line 89, ../sass/simple.sass */
+.footer {
+  background-color: rgba(38, 34, 98, 0.9);
+  width: 100%;
+  padding-bottom: 5px;
+}
+/* line 93, ../sass/simple.sass */
+.footer .info {
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 96, ../sass/simple.sass */
+.footer img {
+  margin: 40px 0 25px 0;
+}
+/* line 98, ../sass/simple.sass */
+.footer h4 {
+  margin: 30px auto;
+}
+/* line 100, ../sass/simple.sass */
+.footer h3 {
+  margin-bottom: 30px;
+}
+
+/* line 103, ../sass/simple.sass */
+.copyright {
+  width: 100%;
+  background-color: rgba(23, 21, 58, 0.95);
+  padding: 30px 0;
+  font-size: 16px;
+  line-height: 22px;
+}

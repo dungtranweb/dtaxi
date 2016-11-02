@@ -1,0 +1,194 @@
+// IMPORT
+@import "compass"
+@import "compass/layout"
+
+
+// COLOR
+$purple: #262262
+$dark-purple: #17153a
+$yellow: #fcb040
+$dark-yellow: #faa425
+
+
+// GENERAL
+body
+  max-width: 480px
+  margin: 0 auto
+  font-family: 'Roboto', sans-serif
+  font-weight: 300
+  color: $purple
+  +input-placeholder
+    color: $purple
+
+h1, h2
+  font-family: 'Roboto', sans-serif
+  font-weight: bold
+  margin: 10px 10px
+
+h3, h4, p, input, select, span
+  font-family: 'Roboto', sans-serif
+  font-weight: 300
+
+h1
+  font-size: 36px
+  line-height: 44px
+
+h2
+  font-size: 24px
+  line-height: 30px
+
+h3
+  font-size: 24px
+  line-height: 30px
+  margin: 10px 0
+
+h4
+  font-size: 20px
+  line-height: 26px
+  margin: 10px 0
+
+p, span
+  font-size: 18px
+  line-height: 24px
+
+// HEADER
+#header
+  position: relative
+
+.header
+  width: 100%
+  color: white
+  text-align: center
+  position: absolute
+  bottom: 18px
+  h1
+    color: $dark-yellow
+
+// FORM
+#register
+  margin-top: 30px
+  color: $purple
+  position: relative
+  h3
+    padding-left: 20px
+
+.register
+  width: (400/480) * 100%
+  margin: 0 auto
+  font-size: 18px
+  font-weight: 300
+  input, select
+    color: $purple
+    width: 100%
+    padding: 15px 10px
+    margin-top: 25px
+    border: none
+    border-bottom: 1px solid $purple
+    outline: none
+
+  input:focus
+    border-bottom-color: $yellow
+
+  select
+    background: transparent
+
+  input[type="checkbox"]
+    display: inline
+    width: 15px
+
+  span
+    color: $purple
+
+  .submit
+    background-color: $purple
+    border-radius: 15px
+    font-size: 30px
+    font-family: 'Roboto',sans-serif
+    font-weight: normal
+    color: $yellow
+    border: none
+
+// BENEFIT
+#benefit
+  position: relative
+  margin-top: 90px
+  h1
+    color: $purple
+    text-align: center
+
+.wrapper
+  width: (400/480) * 100%
+  margin: 0 auto
+
+.benefit
+  margin-top: 55px
+  display: flex
+  width: 100%
+  align-items: center
+  .icons
+    width: 30%
+    text-align: center
+    img
+      margin: 0 auto
+
+  p
+    width: 70%
+    padding: 10px 0 0 35px
+
+// PROCESS
+#process
+  @extend #benefit
+
+.process
+  position: relative
+  width: (430/480) * 100%
+  margin: 0 auto
+  .treeline
+    position: absolute
+    top: 30px
+    left: 27px
+    width: 6px
+    height: 350px
+    background-color: $purple
+    z-index: -1
+
+.step
+  width: 100%
+  display: flex
+  align-items: center
+  margin-top: 55px
+  .number
+    width: (60/430) * 100%
+  p
+    width: (370/430) * 100%
+    padding-left: 20px
+    margin: 0
+
+// FOOTER
+#footer
+  background: url("../images/footer-bg.jpg") no-repeat center center
+  margin-top: 90px
+  text-align: center
+  color: white
+
+.footer
+  background-color: rgba($purple, 0.9)
+  width: 100%
+  padding-bottom: 5px
+  .info
+    width: 90%
+    margin: 0 auto
+  img
+    margin: 40px 0 25px 0
+  h4
+    margin: 30px auto
+  h3
+    margin-bottom: 30px
+
+.copyright
+  width: 100%
+  background-color: rgba($dark-purple, 0.95)
+  padding: 30px 0
+  font-size: 16px
+  line-height: 22px
+
